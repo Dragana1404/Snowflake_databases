@@ -1,13 +1,9 @@
 import snowflake.connector
 
 ctx = snowflake.connector.connect(
-
     user='databar',
     password='Databar1!',
     account='mta30327.us-east-1'
-    #warehouse='COMPUTE-WH'
-    #database='DRAGANA',
-    #schema='PUBLIC'
     )
 
 cs = ctx.cursor()
