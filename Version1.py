@@ -1,5 +1,5 @@
 import snowflake.connector
-
+#Snowflake connector for Python:
 ctx = snowflake.connector.connect(
     user='<username>',
     password='<password>',
