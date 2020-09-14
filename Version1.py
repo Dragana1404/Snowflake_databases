@@ -1,4 +1,5 @@
 import snowflake.connector
+
 #Snowflake connector for Python
 #This is an example of displaying TABLE_SCHEMA, COLUMN_NAME and DATA_TYPE from a specific database
 
